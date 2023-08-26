@@ -1,4 +1,9 @@
 {
+  "homepage": "https://jamesachavesforero.github.io/James-CSS-Dev-Page-2.github.io/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
